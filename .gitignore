@@ -1,0 +1,24 @@
+# Ignore uploaded files
+uploads/*
+
+# Ignore sensitive configs
+includes/db.php
+config.php
+
+# Ignore system files
+*.zip
+*.rar
+*.tar
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific directories
+.vscode/
+.idea/
+
+# Ignore temporary files
+*.tmp
+*.bak
