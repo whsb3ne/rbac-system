@@ -1,0 +1,50 @@
+/* Base styling */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(180deg, #f8fafc, #eef2f7);
+  min-height: 100vh;
+  padding-top: 70px; /* space for navbar */
+  color: #333;
+}
+
+/* Forms */
+form {
+  background: #fff;
+  padding: 20px;
+  max-width: 450px;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+input, button, select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.nav-link.active {
+  font-weight: 700;
+  color: #0d6efd !important;
+  border-bottom: 2px solid #0d6efd;
+}
+
+
+/* Table*/
+
